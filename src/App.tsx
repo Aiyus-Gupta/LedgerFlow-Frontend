@@ -12,7 +12,7 @@ function App() {
   const [history, setHistory] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const API_URL = 'http://localhost:8081/api/wallets';
+  const API_URL = 'https://wallet-api-goz5.onrender.com';
 
   // --- 1. Login Logic ---
   const handleLogin = async (e?: React.FormEvent) => {
